@@ -1,4 +1,4 @@
-# Marketing Performance Case — Email Login + Porta 5001
+# Marketing Performance Case — Porta 5001
 
 - **API em Python (Flask)** (porta padrão **5001**)
 - **Frontend em React (Vite)** com proxy para `http://127.0.0.1:5001`
