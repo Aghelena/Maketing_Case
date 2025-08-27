@@ -41,8 +41,3 @@ python3 api.py  # http://127.0.0.1:5001
 ## 3) Endpoints
 - `POST /api/login` — body: `{ "email": "...", "password": "..." }`
 - `GET /api/metrics?start=YYYY-MM-DD&end=YYYY-MM-DD&sort=col&order=asc|desc` (JWT via `Authorization: Bearer <token>`)
-
-## 4) Observações
-- `SECRET_KEY` padrão é didática — troque em produção.
-- `openpyxl` incluído para ler `.xlsx`.
-- `Flask-Cors` habilitado para `/api/*` (dev).
